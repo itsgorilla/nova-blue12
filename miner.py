@@ -153,9 +153,6 @@ def calculate_final_scores(score_dict: dict,
         config: dict, 
         save_all_scores: bool = False,
         current_epoch: int = 0) -> pd.DataFrame:
-    """
-    Calculate final scores per molecule
-    """
 
     names = sampler_data["molecules"]
     smiles = sampler_data["smiles"]
